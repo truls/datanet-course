@@ -1,0 +1,10 @@
+
+Unfortunately I haven't had the time to pack the application properly
+so some manual steps are required in order to run it
+
+$ cd datenetproxy-0.1
+$ erl -pa ebin -pa ibrowse/ebin
+1> application:start(sasl).
+2> application:start(ibrowse).
+3> application:start(datanetproxy).
+4> 
