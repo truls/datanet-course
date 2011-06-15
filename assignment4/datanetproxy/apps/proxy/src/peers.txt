@@ -1,0 +1,78 @@
+Expire: 86400
+Min-Wait: 600
+
+b.dk.
+berlingske.dk.
+bimg.dk.
+bing.com.
+bing.net.
+boingboing.net.
+datanet2011tracker.appspot.com.
+debian.org.
+diku.dk.
+fsdn.com.
+google.com.
+google.dk.
+gstatic.com.
+jp.dk.
+ku.dk.
+mozilla.com.
+mozilla.net.
+perl.org.
+pol.dk.
+politiken.dk.
+reddit.com.
+regmedia.co.uk.
+slashdot.org.
+theregister.com.
+theregister.co.uk.
+verisign.com.
+version2.dk.
+vimeo.com.
+vimeocdn.com.
+wikimedia.org.
+wikipedia.org.
+yahoo.com.
+yimg.com.
+youtube.com.
+ytimg.com.
+xkcd.com.
+
+50.17.147.84	5001	Sat, 04 Jun 2011 20:38:45 GMT	SUPERPEER	
+46.137.49.145	5000	Sat, 04 Jun 2011 20:38:43 GMT	SUPERPEER	
+46.137.49.145	5001	Sat, 04 Jun 2011 20:38:42 GMT	SUPERPEER	
+50.17.147.84	5002	Sat, 04 Jun 2011 20:38:42 GMT	SUPERPEER	
+46.137.49.145	5002	Sat, 04 Jun 2011 20:38:42 GMT	SUPERPEER	
+50.17.147.84	5000	Sat, 04 Jun 2011 20:38:34 GMT	SUPERPEER	
+174.129.59.37	9999	Sat, 04 Jun 2011 20:32:08 GMT		
+174.129.142.104	8080	Sat, 04 Jun 2011 20:09:52 GMT		
+50.19.153.111	4000	Sat, 04 Jun 2011 19:54:28 GMT		
+94.191.197.133	8001	Sat, 04 Jun 2011 17:31:01 GMT		
+79.125.110.65	30665	Sat, 04 Jun 2011 16:33:29 GMT		
+72.44.42.249	8001	Sat, 04 Jun 2011 16:28:21 GMT		
+87.60.164.28	6666	Sat, 04 Jun 2011 15:48:27 GMT		
+46.137.30.120	9996	Sat, 04 Jun 2011 15:27:21 GMT		
+217.74.220.74	9999	Sat, 04 Jun 2011 15:23:02 GMT		
+46.137.30.120	9999	Sat, 04 Jun 2011 15:07:33 GMT		
+184.72.168.155	5000	Sat, 04 Jun 2011 14:53:06 GMT		
+46.137.30.120	9997	Sat, 04 Jun 2011 14:08:09 GMT		
+46.137.30.120	9998	Sat, 04 Jun 2011 14:07:59 GMT		
+79.125.55.190	8003	Sat, 04 Jun 2011 13:21:13 GMT		
+79.125.55.190	8002	Sat, 04 Jun 2011 13:21:13 GMT		
+79.125.55.190	8001	Sat, 04 Jun 2011 13:21:13 GMT		
+79.125.55.190	8000	Sat, 04 Jun 2011 13:21:12 GMT		
+82.143.235.152	8003	Sat, 04 Jun 2011 11:37:28 GMT		
+82.143.235.152	8002	Sat, 04 Jun 2011 11:37:28 GMT		
+82.143.235.152	8001	Sat, 04 Jun 2011 11:37:27 GMT		
+82.143.235.152	8000	Sat, 04 Jun 2011 11:37:27 GMT		
+94.191.191.211	8001	Sat, 04 Jun 2011 11:20:58 GMT		
+213.140.64.38	8000	Sat, 04 Jun 2011 10:16:18 GMT		
+79.125.110.65	30666	Sat, 04 Jun 2011 09:47:06 GMT		
+1.2.3.4	1234	Sat, 04 Jun 2011 00:48:09 GMT		
+83.92.65.177	1337	Fri, 03 Jun 2011 23:11:58 GMT		
+50.19.252.198	6001	Fri, 03 Jun 2011 22:50:14 GMT		
+50.19.252.198	6009	Fri, 03 Jun 2011 22:39:52 GMT		
+174.129.105.87	6007	Fri, 03 Jun 2011 22:17:01 GMT		
+90.184.91.109	9999	Fri, 03 Jun 2011 22:01:51 GMT		
+174.129.105.87	6002	Fri, 03 Jun 2011 21:40:51 GMT		
+46.137.3.18	8080	Fri, 03 Jun 2011 20:44:21 GMT		
