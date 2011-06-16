@@ -12,7 +12,7 @@ all: deps compile rel
 
 deps:
 	$(REBAR) get-deps
-	patch -i datanet-request-method.patch -l -d deps/ibrowse/src/ -p0
+	grep -q DATANET deps/ibrowse/src/ibrowse_http_client.erl || < datanet-request-method.patch patch -d deps/ibrowse/src/ -p0
 
 cleandeps:
 	$(REBAR) delete-deps
