@@ -3,9 +3,16 @@
 REBAR=./rebar
 
 all: deps compile rel
+	@echo
+	@echo
+	@echo "All done. Now start the proxy by running rel/datanetproxy/bin/datanetproxy start"
+	@echo "You can configure the proxy by editing rel/datanetproxy/etc/app.config"
+	@echo
+	@echo "Have fun!"
 
 deps:
 	$(REBAR) get-deps
+	patch -i datanet-request-method.patch -l -d deps/ibrowse/src/ -p0
 
 cleandeps:
 	$(REBAR) delete-deps

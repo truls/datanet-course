@@ -1,0 +1,12 @@
+--- ibrowse_http_client.erl.orig	2011-06-16 02:17:15.987590949 +0200
++++ ibrowse_http_client.erl	2011-06-16 02:18:15.443304651 +0200
+@@ -1548,7 +1548,8 @@
+ method(unlock)    -> "UNLOCK";
+ method(move)      -> "MOVE";
+ method(copy)      -> "COPY";
+-method(connect)   -> "CONNECT".
++method(connect)   -> "CONNECT";
++method(datanet)   -> "DATANET".
+ 
+ %% From RFC 2616
+ %%
