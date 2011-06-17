@@ -38,8 +38,10 @@ handle_call(_, _, State) ->
 handle_cast(stop, State) ->
     {stop, normal, State}.
 
-
-handle_info({ibrowse_async_headers, Req_id, Response, Headers}, State) ->
+handle_info({ibrowse_async_headers, _Req_id, 700, _Headers}, State) ->
+    %% Special case for handling encrypted responses. Leaving empty for now
+    {noreply, State};
+handle_info({ibrowse_async_headers, _Req_id, Response, Headers}, State) ->
     % Return initial request line
     io:format("Got reply: ~p ~p ~n", [Response, sanitize_headers(Headers)]),
     send_response(http_response(list_to_integer(Response),
@@ -116,7 +118,7 @@ handle_info({http, _Socket, http_eoh}, #state{has_via = HasVia, max_forward = Ma
 	    {noreply, handle_request(ReversedState)}
 %	    {stop, normal, handle_request(State)}
     end;
-handle_info({tcp, Socket, Data}, State) when is_binary(Data) ->
+handle_info({tcp, _Socket, Data}, State) when is_binary(Data) ->
 %    io:format("Received part~p~n", [Data]),
 %    io:format("Length of this segment was: ~p~n", [erlang:byte_size(Data)]),
     

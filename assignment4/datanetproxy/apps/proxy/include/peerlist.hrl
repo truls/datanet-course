@@ -1,10 +1,18 @@
--record(peerlist, {expire = 0,
+-record(peerlist, {verified = false,
+		   expire = 0,
 		   minwait = 0,
 		   nonce = "",
 		   peers = [],
-		   whitelist = []}).
+		   whitelist = [],
+		   n,
+		   e}).
 		      
 -record(peer, {ip,
 	       port,
 	       datetime,
-	       superpeer}).
+	       superpeer,
+	       n,
+	       e}).
+
+-record(key, {n, e}).
+
